@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -17,13 +17,13 @@ h1 {
 }
 
 .container {
-  background: #ffffff10;
+  background-image: linear-gradient(to top, #9aa5e2 0%, #7493fa 100%);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 20px 30px;
-  max-width: 500px;
+  min-width: 500px;
   width: 100%;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 input[type="text"] {
@@ -71,6 +71,7 @@ ul {
 
 li {
   background: rgba(255, 255, 255, 0.15);
+  color: #020a00;
   border-radius: 5px;
   padding: 10px 15px;
   display: flex;
@@ -95,19 +96,22 @@ li button {
 }
 
 .complete-btn {
-  background: #ffc107;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
   color: #000;
+
+
 }
 
 .complete-btn:hover {
-  background: #e0a800;
+  background: green;
+  color: #fff;
 }
 
 .delete-btn {
-  background: #ff4d4f;
+  background: #f82528;
   color: #fff;
 }
 
 .delete-btn:hover {
-  background: #e63946;
+  background: #d60b1c;
 }
